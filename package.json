@@ -1,6 +1,6 @@
 {
   "name": "firestore-declarative-indexes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get your Firestore indexes scaling easier and working harder.",
   "main": "index.js",
   "scripts": {
