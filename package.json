@@ -1,0 +1,40 @@
+{
+  "name": "firestore-declarative-indexes",
+  "version": "1.0.0",
+  "description": "Get your Firestore indexes scaling easier and working harder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "babel index.js -o out.js && node ./index.js ; rm -rf ./out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cawfree/firestore-declarative-indexes.git"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "index",
+    "indexes",
+    "indexing",
+    "generator",
+    "json",
+    "tool",
+    "cli",
+    "firebase-cli"
+  ],
+  "author": "Alexander Thomas (@cawfree)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cawfree/firestore-declarative-indexes/issues"
+  },
+  "homepage": "https://github.com/Cawfree/firestore-declarative-indexes#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.2",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "jest": "^24.5.0"
+  },
+  "dependencies": {}
+}
